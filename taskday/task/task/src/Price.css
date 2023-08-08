@@ -1,0 +1,221 @@
+span{
+position: relative;
+right: 10px;
+
+
+}
+.pricecard{
+    
+    background-color: rgb(249, 249, 249);
+    border: solid black;
+    border-radius: 12px;
+    padding: 15px;
+    width: 260px;
+   
+}
+
+.fornt{
+    font-weight: bold;
+    color: rgb(195, 212, 212);
+    margin: 20px;
+
+}
+.dark1{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    position: relative;
+   right: 70px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+   
+   
+}
+.dark2{
+    position: relative;
+    right: 47px;
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.dark3{
+    position: relative;
+    right: 15px;
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.dark4{
+    position: relative;
+    right: 31px;
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.light1{
+    position: relative;
+    right: 11px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+   color: rgb(195, 212, 212);
+}
+
+.light2{
+    position: relative;
+    right: 16px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+   color: rgb(195, 212, 212);
+}
+
+.light3{
+    position: relative;
+    right: 38px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+   color: rgb(195, 212, 212);
+}
+.light4{
+    position: relative;
+    right: 17px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+   color: rgb(195, 212, 212);
+}
+.button{
+    font-weight: bold;
+    width: 250px;
+    color:white;
+    background-color: blue;
+    border-radius: 50px;
+}
+.pricecard2{
+    background-color: rgb(249, 249, 249);
+    border: solid black;
+    border-radius: 12px;
+    padding: 15px;
+    width: 260px;
+    position: relative;
+    left: 340px;
+    bottom: 492px;
+    
+}
+.pricecard3{
+    background-color: rgb(249, 249, 249);
+    border: solid black;
+    border-radius: 12px;
+    padding: 15px;
+    width: 260px;
+    position: relative;
+    right: 340px;
+    bottom: 990px;
+    
+}
+
+.dark11{
+  
+    position: relative;
+   right: 66px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;}
+
+   
+.dark21{
+  
+    position: relative;
+   right:47px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;}
+   
+.dark31{
+  
+    position: relative;
+   right:15px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;}
+   
+.dark41{
+  
+    position: relative;
+   right: 30px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;}
+   .dark51{
+  
+    position: relative;
+   right: 12px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;}
+   .dark61{
+  
+    position: relative;
+   right: 14px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;}
+   .dark71{
+  
+    position: relative;
+   right: 39px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;}
+   
+   .light12{
+    position: relative;
+    right: 11px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+   
+    
+}
+   .light22{
+    
+    position: relative;
+    right: 17px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+   
+}
+   .light32{
+    
+    position: relative;
+    right: 38px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+  
+}
+   
+   
+.light42{
+    
+    position: relative;
+    right: 17px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;
+}
+.dark12{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    position: relative;
+   right:40px;
+   padding: 5px;
+   font-size: small;
+   font-weight: bold;}
