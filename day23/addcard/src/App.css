@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.bike{
+  background-color: black;
+  color: white;
+  font-family:fantasy;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 30PX;
+  text-align: center;
+
+
+}
+.cart-value{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 40px;
+  gap: rem;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  /* position: absolute; */
+  
+}
+div.card{
+  border: 4px double rgb(200, 200, 200) ;
+  height: 25rem;
+  border-radius: 13px;
+  width: max-content;
+  height: 400px;
+}
+img{
+  border-bottom: 1px solid black;
+  border-radius: 20px;
+  border-color: rgb(251, 159, 0) ;
+  
+}
+div.card:hover {
+  margin-top: -.35rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 5rem 0 rgba(235, 0, 0, 0.3);
+}
+div .btn{
+  width: 200px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(178, 184, 187);
+}
+div .btn:hover{
+  border: 2px solid rgb(255, 255, 255);
+}
