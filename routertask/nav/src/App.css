@@ -1,0 +1,61 @@
+nav{
+
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    font-size:25px ;
+    font-weight: bold;
+    margin: 10px;
+    
+    color: rgb(90, 88, 88);
+      
+}
+
+ 
+
+.nav1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   justify-content: space-evenly;
+   font-size: x-large;
+  
+
+}
+
+
+.link{
+     text-decoration: none; 
+     color: darkgray;
+     margin: 20px auto;
+     
+}
+
+.link:hover{
+    color: rgb(84, 222, 24);
+    border: 20px;
+    text-decoration: underline;
+}
+.item2:hover{
+    color: rgb(84, 222, 24);
+    border: 20px;
+    text-decoration: underline;
+}
+.item3:hover{
+    color: rgb(84, 222, 24);
+    border: 20px;
+    text-decoration: underline;
+}
+
+.item4:hover{
+    color: rgb(84, 222, 24);
+    border: 20px;
+    text-decoration: underline;
+}
+.item1:hover{
+    color: rgb(84, 222, 24);
+    border: 20px;
+    text-decoration: underline;
+}
+
+
+

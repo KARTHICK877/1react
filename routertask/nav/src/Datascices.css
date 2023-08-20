@@ -1,0 +1,12 @@
+.p1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p2{
+    background-color: rgb(246, 243, 239);
+}

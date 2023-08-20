@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 30PX;
+  text-align: center;
+}
+.cart-value{
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+  font-size: x-large;
+  gap: 2rem;
+  
+}
+div.card{
+  border: 4px double black ;
+  height: 25rem;
+  border-radius: 13px;
+}
+img{
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+}
+div.card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+div .btn{
+  width: 200px;
+}
+div .btn:hover{
+  border: 2px solid black;
+}
