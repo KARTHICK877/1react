@@ -1,0 +1,91 @@
+App.css
+
+/* Add some general styles for your app */
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cart-value {
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style the product cards */
+.card {
+  margin: 10px;
+  width: 18rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Style the buttons */
+.btn {
+  margin: 5px;
+  background-color: blue;
+}
+
+/* Style the badge */
+.cart-badge {
+  background-color: #343a40;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+span{
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buy{ background-color: rgb(22, 86, 213);
+  box-shadow: hsl(0, 7%, 8%) 4px 4px 0px;
+  border-radius: 8px;
+  padding: 0px 0px;
+  color: rgb(255, 255, 255);
+  border:none;
+  transition: transform 200ms, box-shadow 200ms;
+  width: 150px;
+}
+.buy:active{
+
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #fcfeff 0 0 0 ;
+}

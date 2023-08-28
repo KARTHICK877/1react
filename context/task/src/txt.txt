@@ -1,0 +1,59 @@
+export default App;
+
+function Items({prod, count, setcount}) {
+    const [show, setShow] = useState(false)
+   
+    function addcart(){
+      setcount(count+1)
+      // setShow(!show)
+    }
+    function removecart(){
+      setcount(count-1)
+      // setShow(!show)
+    }
+    // function double(){
+    //   setcount(count*1)
+    // }
+  return (
+    <div>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={prod.images}/>
+      <Card.Body>
+        <Card.Title>{prod.title}title</Card.Title>
+        <Card.Text>{prod.description}description</Card.Text>
+        <Card.Text>{prod.discountPercentage}discountPercentage</Card.Text>
+        <Card.Text>{prod.rating}rating</Card.Text>
+        <Card.Text>{prod.price}price</Card.Text>
+        <Card.Text>{prod.thumbnail}thumbnail</Card.Text>
+        {!show ? 
+        <Button variant="warning"
+        onClick={double}
+        >qualty{count}</Button>
+        : ""}
+
+{!show ? 
+        <Button variant="warning"
+        onClick={double}
+        >qualty{count}</Button>
+        : ""}
+ 
+
+        { show ?
+        <Button variant="danger" 
+        onClick={removecart}
+        >Remove from Cart</Button>
+        : ""}
+         {!show ? 
+        <Button variant="display"
+        onClick={addcart}
+        >+</Button>
+        
+        : ""}
+         <Button variant="danger"
+        onClick={removecart}
+        >-</Button>
+
+      </Card.Body>
+    </Card>
+    </div>
+  )
