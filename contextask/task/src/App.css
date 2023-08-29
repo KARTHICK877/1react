@@ -1,42 +1,136 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  background-color: #cb4a4a;
+}
+
+.App {
+  padding: 20px;
+  margin: 20px;
   text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #cb4a4a;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .card {
-  padding: 2em;
+  width: 18rem;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.read-the-docs {
-  color: #888;
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+  margin-top: 8px;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.card-buttons button {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.cart-value {
+  margin-top: 10px;
+}
+.buy{ background-color: rgb(26, 172, 230);
+  box-shadow: hsl(0, 7%, 8%) 4px 4px 0px;
+  border-radius: 8px;
+  padding: 0px 0px;
+  color: rgb(255, 255, 255);
+  border:none;
+  transition: transform 200ms, box-shadow 200ms;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.buy:active{
+
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #fcfeff 0 0 0 ;
+}
+/* Customize Bootstrap button styles */
+.button {
+  margin: 0px;
+  
+}
+.button.warning {
+  background-color: #ffc107;
+  color: #fff;
+}
+.button.danger {
+  background-color: #dc3545;
+  color: #fff;
+  
+}
+.button.display {
+  background-color: #007bff;
+  color: #fff;
+}
+.button.from {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Badge */
+.cart-value .badge {
+  font-size: 2rem;
+  padding: 6px 12px;
+  
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card-container {
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+.add{
+  margin: 20px auto;
 }
