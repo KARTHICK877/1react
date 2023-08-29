@@ -87,7 +87,7 @@ function App() {
         "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
         "images": [
         
-            "https://i.dummyjson.com/data/products/5/3.jpg"
+          "https://i.dummyjson.com/data/products/5/thumbnail.jpg"
         ]
     }
   
