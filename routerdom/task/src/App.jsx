@@ -7,6 +7,8 @@ import Fullstack from './Fullstack'
 import Datascices from './Datascices'
 import Cyber from './Cyber'
 import logo from './assets/Image/logo.png'
+import blog from './assets/Image/blog.png'
+
 
 import Career from './Career'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,7 +28,7 @@ function App() {
     
     </nav>
     <div><hr /></div>
-    <img width={1500}height={220} src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png" alt="" />
+    <img width={1500}height={220} src={blog} alt="" />
     <nav>
     <Link to='/' className='link'>All</Link>
     <Link to='/All-category-full-stack-developer' className='link'>Full Stack Developer</Link>

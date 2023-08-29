@@ -1,17 +1,15 @@
 // App.js
 import React from 'react';
-import CounterProvider from './CounterProvider';
-import Counter from './Counter';
+import ProductProvider from './ProductProvider';
+import ProductList from './ProductList';
 
 function App() {
   return (
-    
-    <CounterProvider>
-      
+    <ProductProvider>
       <div className="App">
-        <Counter />
+        <ProductList />
       </div>
-    </CounterProvider>
+    </ProductProvider>
   );
 }
 

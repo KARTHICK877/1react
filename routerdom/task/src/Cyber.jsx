@@ -2,19 +2,29 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import cim1 from './assets/Image/cim1.png'
+import cim2 from './assets/Image/cim2.png'
+import cim3 from './assets/Image/cim3.png'
+import cim4 from './assets/Image/cim4.png'
+import cim5 from './assets/Image/cim5.png'
+import cim6 from './assets/Image/cim6.png'
+import cim7 from './assets/Image/cim7.png'
+import image1 from './assets/Image/image1.png'
+import cim8 from './assets/Image/cim8.png'
+import i1 from './assets/Image/i1.png'
 function Cyber() {
   return (
     <div>
     <br />
       <div>
-      <img width={1500}height={300} src="https://www.guvi.in/blog/wp-content/uploads/2022/04/July-last-week-offer-cover-2048x453.webp" alt="" />
+      <img width={1500}height={300} src={i1} alt="" />
       </div>
       <br />
       <div><hr /></div>
     
     <CardGroup>
     <Card className='group'>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-2048x1152.png" />
+      <Card.Img width={300}height={200} variant="top" src={cim1} />
       <Card.Body>
         <Card.Title>Cybersecurity Vs Ethical Hacking: Top 10 Differences</Card.Title>
         <Card.Text>
@@ -26,7 +36,7 @@ function Cyber() {
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif" />
+      <Card.Img width={300}height={200} variant="top" src={cim2} />
       <Card.Body>
         <Card.Title>What is Cybersecurity? Importance and its uses & the growing challenges in 2023!</Card.Title>
         <Card.Text>
@@ -37,7 +47,7 @@ function Cyber() {
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2022/11/Blue-Purple-Futuristic-Virus-Hacks-Youtube-Thumbnail-768x432.png" />
+      <Card.Img width={300}height={200} variant="top" src={cim3} />
       <Card.Body>
         <Card.Title>Top 10 Ethical Hacking Books for Beginner to Advanced</Card.Title>
         <Card.Text>
@@ -51,7 +61,7 @@ function Cyber() {
   </CardGroup>
   <CardGroup>
   <Card>
-  <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-768x432.png" />
+  <Card.Img width={300}height={200} variant="top" src={cim4}/>
 
       <Card.Body>
         <Card.Title>8 Different Types of Cybersecurity and Threats Involved</Card.Title>
@@ -64,7 +74,7 @@ function Cyber() {
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif"/>
+      <Card.Img width={300}height={200} variant="top" src={cim5}/>
       <Card.Body>
         <Card.Title>Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?</Card.Title>
         <Card.Text>
@@ -75,7 +85,7 @@ function Cyber() {
       </Card.Footer>
     </Card>
     <Card>
-    <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2022/06/Types-of-Cyber-Security-Attacks-and-How-to-Minimize-the-Impact-768x240.jpg"/>
+    <Card.Img width={300}height={200} variant="top" src={cim6}/>
       
       <Card.Body>
         <Card.Title>Top 7 Cyber Security Attacks in Real Life</Card.Title>
@@ -89,7 +99,7 @@ function Cyber() {
       </CardGroup>
       <CardGroup>
       <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2021/03/Blog-9-768x402.png"/>
+      <Card.Img width={300}height={200} variant="top" src={cim7}/>
 
       <Card.Body>
         <Card.Title>The Cybersecurity Surge: 5 Must-Have Cybersecurity Certifications!</Card.Title>
@@ -101,7 +111,7 @@ function Cyber() {
  
       </Card.Footer>
     </Card> <Card>
-    <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2021/03/Cybersecurity-ultimate-guide-768x402.png"/>
+    <Card.Img width={300}height={200} variant="top" src={cim8}/>
     
       <Card.Body>
         <Card.Title>How Is Cyber Security Important To Our Lives?</Card.Title>
@@ -113,7 +123,7 @@ function Cyber() {
  
       </Card.Footer>
     </Card> <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2020/11/cyber-security-e1614342903477.png" />
+      <Card.Img width={300}height={200} variant="top" src={image1} />
       <Card.Body>
         <Card.Title>Cybersecurity Jobs: Ultimate Cybersecurity Career Roadmap</Card.Title>
         <Card.Text>

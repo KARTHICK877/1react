@@ -2,12 +2,17 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import i1 from './assets/Image/i1.png';
+import i2 from './assets/Image/i2.png';
+import i3 from './assets/Image/i3.png';
+import i4 from './assets/Image/i4.png';
+import i5 from './assets/Image/i5.png';
 function Cdvwveareer() {
   return (
     <div>
        <br />
       <div>
-      <img width={1500}height={300} src="https://www.guvi.in/blog/wp-content/uploads/2022/04/July-last-week-offer-cover-2048x453.webp" alt="" />
+      <img width={1500}height={300} src={i1} alt="" />
       </div>
       <br />
       <div><hr /></div>
@@ -64,7 +69,7 @@ function Cdvwveareer() {
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4.png"/>
+      <Card.Img width={300}height={200} variant="top" src={i2}/>
       <Card.Body>
         <Card.Title>10 Best Data Science Online Courses for Beginners | 2023</Card.Title>
         <Card.Text>
@@ -90,7 +95,7 @@ function Cdvwveareer() {
       </CardGroup>
       <CardGroup>
       <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/02/DBMS1.png" />
+      <Card.Img width={300}height={200} variant="top" src={i3}/>
       <Card.Body>
         <Card.Title>Top 12 Career Opportunities for UI/UX Design</Card.Title>
         <Card.Text>
@@ -101,7 +106,7 @@ function Cdvwveareer() {
  
       </Card.Footer>
     </Card> <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2021/04/Game-Development-Career-101-768x432.jpg" />
+      <Card.Img width={300}height={200} variant="top" src={i4} />
       <Card.Body>
         <Card.Title>Game Development Career 2023: The Ultimate Beginners Guide</Card.Title>
         <Card.Text>
@@ -112,7 +117,7 @@ function Cdvwveareer() {
  
       </Card.Footer>
     </Card> <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/07/24746653_7002417-1-2048x1365.jpg" />
+      <Card.Img width={300}height={200} variant="top" src= {i5}/>
       <Card.Body>
         <Card.Title>The Future & Scope of Full Stack Developers in India</Card.Title>
         <Card.Text>

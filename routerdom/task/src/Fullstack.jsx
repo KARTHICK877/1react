@@ -3,6 +3,14 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import './Fullstack.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import image1 from './assets/Image/image1.png'
+import image8 from './assets/Image/image8.png'
+import image2 from './assets/Image/image2.png'
+import image3 from './assets/Image/image3.png'
+import image4 from './assets/Image/image4.png'
+import image6 from './assets/Image/image6.png'
+import image5 from './assets/Image/image5.png'
+import image7 from './assets/Image/image7.png'
 function Fullstack() {
   return (
     <div>
@@ -19,7 +27,7 @@ function Fullstack() {
       </div>
     <CardGroup>
     <Card className='group'>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/08/The-Top-10-Tools-Every-Full-Stack-Developer-Should-Master-in-2023-2048x1072.png" />
+      <Card.Img width={300}height={200} variant="top" src={image2} />
       <Card.Body>
         <Card.Title>The Top 10 Tools Every Full Stack Developer Should Master in 2023</Card.Title>
         <Card.Text>
@@ -31,7 +39,7 @@ function Fullstack() {
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/08/The-Ultimate-Guide-to-Real-World-Full-Stack-Development-Applications-2048x1072.png" />
+      <Card.Img width={300}height={200} variant="top" src={image1} />
       <Card.Body>
         <Card.Title>The Ultimate Guide to Real-World Full Stack Development Applications</Card.Title>
         <Card.Text>
@@ -58,7 +66,7 @@ function Fullstack() {
   </CardGroup>
   <CardGroup>
   <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/07/image-6.png" />
+      <Card.Img width={300}height={200} variant="top" src={image3}/>
       <Card.Body>
         <Card.Title>Top Skills To Become a Full Stack Developer in 2023</Card.Title>
         <Card.Text>
@@ -70,7 +78,7 @@ function Fullstack() {
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/07/rupee-symbol-sign-golden-coin-notes-isolated-white-background.jpg"/>
+      <Card.Img width={300}height={200} variant="top" src={image4}/>
       <Card.Body>
         <Card.Title>Salary of a Full Stack Developer in India in 2023</Card.Title>
         <Card.Text>
@@ -82,7 +90,7 @@ function Fullstack() {
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/02/1_6rDcIgFJQldloIERiUSmzw-768x317.png" />
+      <Card.Img width={300}height={200} variant="top" src={image5} />
       <Card.Body>
         <Card.Title>How does Apache work? A detailed introduction to Apache</Card.Title>
         <Card.Text>
@@ -96,7 +104,7 @@ function Fullstack() {
       </CardGroup>
       <CardGroup>
       <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/02/DBMS1.png" />
+      <Card.Img width={300}height={200} variant="top" src={image6}/>
       <Card.Body>
         <Card.Title>10 Best Database Management Systems For Software Developers</Card.Title>
         <Card.Text>
@@ -107,7 +115,7 @@ function Fullstack() {
  
       </Card.Footer>
     </Card> <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/06/software-engineering-internships-768x402.png" />
+      <Card.Img width={300}height={200} variant="top" src={image7}/>
       <Card.Body>
         <Card.Title>7 Powerful Steps to Land a Software Developer Internship</Card.Title>
         <Card.Text>
@@ -118,7 +126,7 @@ function Fullstack() {
  
       </Card.Footer>
     </Card> <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/03/1.jpg" />
+      <Card.Img width={300}height={200} variant="top" src={image8}/>
       <Card.Body>
         <Card.Title>Web Development Roadmap for Beginners 2023</Card.Title>
         <Card.Text>

@@ -4,7 +4,9 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Datascices.css'
-
+import dimage1 from './assets/Image/dimage1.png';
+import dimage2 from './assets/Image/dimage2.png';
+import dimage3 from './assets/Image/dimage3.png';
 function Datascices() {
   return (
     <div>
@@ -73,7 +75,7 @@ function Datascices() {
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/08/Everything-about-Data-Scientist-Salary-in-India-2023-768x402.png"/>
+      <Card.Img width={300}height={200} variant="top" src={dimage1}/>
       <Card.Body>
         <Card.Title>Everything about Data Scientist Salary in India | 2023</Card.Title>
         <Card.Text>
@@ -84,7 +86,7 @@ function Datascices() {
       </Card.Footer>
     </Card>
     <Card>
-    <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/08/How-Long-Would-It-Take-to-Learn-Data-Science-768x402.png"/>
+    <Card.Img width={300}height={200} variant="top" src={dimage2}/>
       
       <Card.Body>
         <Card.Title>How Long Would It Take to Learn Data Science?</Card.Title>
@@ -123,7 +125,7 @@ function Datascices() {
  
       </Card.Footer>
     </Card> <Card>
-      <Card.Img width={300}height={200} variant="top" src="https://www.guvi.in/blog/wp-content/uploads/2023/07/conceptual-data-analysis-with-wooden-blocks-magnifying-glass-side-view-1-768x479.jpg" />
+      <Card.Img width={300}height={200} variant="top" src={dimage3} />
       <Card.Body>
         <Card.Title>Best Way to Learn Data Science in 2023</Card.Title>
         <Card.Text>
