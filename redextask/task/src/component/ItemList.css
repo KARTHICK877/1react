@@ -1,0 +1,187 @@
+/* itemList.css */
+
+/* Style the container for each item */
+
+
+/* Style the item container */
+.item-container {
+  border: 1px solid #000000;
+  padding: 16px;
+  width: 300px; /* Adjust the width as needed */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for item containers */
+.item-container:hover {
+  transform: scale(1.03);
+}
+
+/* Style item title */
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Style item description */
+p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Style item brand */
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #007bff; /* Change the color to your preference */
+}
+
+/* Style item image */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+/* Style item price */
+.item-price {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Style item quantity section */
+.item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+/* Style quantity buttons */
+.quantity-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for quantity buttons */
+.quantity-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style quantity input */
+.quantity-input {
+  width: 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 0 8px;
+  border: 1px solid #ce3131;
+  padding: 4px;
+  background-color: rgb(234, 35, 28);
+}
+
+/* Style total price */
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.butt{background-color: rgb(26, 172, 230);
+  box-shadow: hsl(0, 7%, 8%) 4px 4px 0px;
+  border-radius: 8px;
+  padding: 5px 5px;
+  color: rgb(255, 255, 255);
+  border:none;
+  transition: transform 200ms, box-shadow 200ms;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.butt:active{
+
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #fcfeff 0 0 0 ;
+}
+
+.item{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid black;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  display: inline-flex;
+  margin: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+.all{
+
+
+}
+.one{
+  background-color: rgb(0, 0, 211);
+  width: 50px;
+  color: #fff;
+  background-color: red;
+  font-size: large;
+  color: #fff;
+  background-color: rgb(235, 0, 55);
+  box-shadow: hsl(0, 7%, 8%) 4px 4px 0px;
+  border-radius: 8px;
+  padding: 5px 5px;
+  color: rgb(255, 255, 255);
+  border:none;
+  transition: transform 200ms, box-shadow 200ms;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.one:active{
+
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #fcfeff 0 0 0 ;
+}
+
+.two{
+  background-color: rgb(0, 0, 211);
+  width: 50px;
+  color: #fff;
+  background-color: rgb(227, 122, 16);
+  font-size: large;
+  color: #fff;
+  background-color: rgb(236, 126, 1);
+  box-shadow: hsl(0, 7%, 8%) 4px 4px 0px;
+  border-radius: 8px;
+  padding: 5px 5px;
+  color: rgb(255, 255, 255);
+  border:none;
+  transition: transform 200ms, box-shadow 200ms;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.two:active{
+
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #fcfeff 0 0 0 ;
+}
+
+

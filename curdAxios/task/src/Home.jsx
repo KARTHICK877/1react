@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import {Link, useNavigate} from 'react-router-dom'
+import dbjson from './db.json'
 function Home() {
+  const [dbdata , setdbdata]= useState(dbjson)
+  console.log('dbdata', dbdata)
+
   const [data, setdata] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
-    // axios.get('https://jsonplaceholder.typicode.com/users')
+  
       axios.get('https://jsonplaceholder.typicode.com/users')
 
       .then(res => setdata(res.data))
@@ -13,6 +17,7 @@ function Home() {
   }, []);
   const handledelete = (id) => {
     const confirm = window.confirm('would you like to Delete ?');
+     setdbdata(data.filter((data) => data.id !== id));
     if(confirm){
       axios.delete('https://jsonplaceholder.typicode.com/users/'+id)
       .then (res =>{
@@ -21,6 +26,7 @@ function Home() {
       }).catch(error=>console.log(error));
     }
   }
+  
 
   return (
     <div className='data-flex flex-column justify-content-center align-item-center bg-light vh-100'>
@@ -40,7 +46,7 @@ function Home() {
             </tr>
           </thead>
           <tbody>
-            {data.map((d, i) => (
+            {dbdata.users.map((d, i) => (
               <tr key={i}>
                 <td>{d.id}</td>
                 <td>{d.name}</td>

@@ -10,7 +10,8 @@ function Create() {
   const navigate = useNavigate();
   const handelsubmit =(event)=>{
     event.preventDefault();
-    axios.post('https://jsonplaceholder.typicode.com/users',values)
+    
+    axios.post('http://localhost:4000/users',values)
     .then(res => {
       console.log(res);
       navigate('/');

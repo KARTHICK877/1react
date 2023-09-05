@@ -1,0 +1,25 @@
+// Sureshbabu Vikram15:55
+// const UserList = () => {
+//   const initialUsers = [
+//     { id: 1, name: 'John Doe', email: 'john@example.com' },
+//     { id: 2, name: 'Jane Smith', email: 'jane@example.com' },
+//   ];
+
+  const [users, setUsers] = useState(initialUsers);
+  const [editingUser, setEditingUser] = useState(null);
+
+  const handleAddUser = (newUser) => {
+    setUsers([...users, newUser]);  
+  };
+
+  const handleDeleteUser = (id) => {
+    setUsers(users.filter((user) => user.id !== id));
+  };
+const handleEditUser = (user) => {
+    setEditingUser(user);
+  };
+
+  const handleUpdateUser = (updatedUser) => {
+    setUsers(users.map((user) => (user.id === updatedUser.id ? updatedUser : user)));
+    setEditingUser(null);
+  };

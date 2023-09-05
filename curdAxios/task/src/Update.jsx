@@ -15,7 +15,7 @@ function Update() {
   })
   const navigate = useNavigate();
    useEffect(() => {
-     axios.get('http://localhost:3000/users/'+id)
+     axios.get('https://jsonplaceholder.typicode.com/users/'+id)
        .then(res => {
         setvalues(res.data);
        })
@@ -24,6 +24,7 @@ function Update() {
    const handleupdate =(event)=>{
     event.preventDefault();
     axios.put('https://jsonplaceholder.typicode.com/users/'+id,values)
+    // axios.put('http://localhost:4000/users/'+id,values)
     .then(res => {
       console.log(res);
       navigate('/');

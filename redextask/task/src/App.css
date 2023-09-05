@@ -1,0 +1,74 @@
+
+.item-container {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style item image */
+.item-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 16px;
+}
+
+/* Style item details */
+.item-details {
+  flex-grow: 1;
+}
+
+/* Style item name */
+.item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Style item price */
+.item-price {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style item quantity section */
+.item-quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+/* Style quantity buttons */
+.quantity-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for quantity buttons */
+.quantity-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style quantity input */
+.quantity-input {
+  width: 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 0 8px;
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+/* Style total price */
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+/* Additional styles or modifications can be added based on your design preferences */
