@@ -11,7 +11,7 @@ function Create() {
   const handelsubmit =(event)=>{
     event.preventDefault();
     
-    axios.post('http://localhost:4000/users',values)
+    axios.post(' http://localhost:3030/users/',values)
     .then(res => {
       console.log(res);
       navigate('/');

@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 function Update() {
-  // const [data, setData] = useState([]);
+ 
   const {id}=useParams();
   const [values ,setvalues] = useState({
     name:'',
@@ -15,7 +15,7 @@ function Update() {
   })
   const navigate = useNavigate();
    useEffect(() => {
-     axios.get('https://jsonplaceholder.typicode.com/users/'+id)
+     axios.get('http://localhost:3030/users/'+id)
        .then(res => {
         setvalues(res.data);
        })
@@ -23,8 +23,8 @@ function Update() {
    }, []);
    const handleupdate =(event)=>{
     event.preventDefault();
-    axios.put('https://jsonplaceholder.typicode.com/users/'+id,values)
-    // axios.put('http://localhost:4000/users/'+id,values)
+    axios.put(' http://localhost:3030/users/'+id,values)
+    
     .then(res => {
       console.log(res);
       navigate('/');

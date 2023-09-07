@@ -1,24 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import styled from "styled-components"
-import StartGame from "./component/StartGame"
 
+import { useState } from 'react'
+
+import StartGame from "./component/StartGame"
+import GamePlay from './component/GamePlay'
 function App() {
-const [Isstartgame,SetIsstartgame] = useState(false);
+const [Isstartgame,SetIsstartgame] = useState(true);
 
 const gametoggles = ()=> {
   SetIsstartgame ((prev)=>!prev)
 }
-prev = !prev
+
 
   return (
     <>
-    <StartGame/>
+    {Isstartgame ? <GamePlay/>:<StartGame toggle = {gametoggles}/>}
+    
     </>
   )
 }
 
 export default App
-
-
-
