@@ -73,8 +73,8 @@ body {
 .cart-value {
   margin-top: 10px;
 }
-.buy{ background-color: rgb(26, 172, 230);
-  box-shadow: hsl(0, 7%, 8%) 4px 4px 0px;
+.buy{ background-color: rgb(9, 9, 9);
+  box-shadow: hsl(0, 100%, 14%) 4px 4px 0px;
   border-radius: 8px;
   padding: 0px 0px;
   color: rgb(255, 255, 255);
