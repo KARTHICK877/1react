@@ -1,0 +1,62 @@
+.title{
+  background-color: #f9d6d6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #444;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #5c9be4;
+  box-shadow: 0 0 3px rgba(92, 155, 228, 0.5);
+}
+
+
+/* Styling for error messages */
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Styling for success messages */
+.success {
+  color: green;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Styling for the submit button */
+button{ background-color: red;
+  box-shadow: hsl(0, 0%, 0%) 4px 4px 0px;
+  border-radius: 8px;
+  padding: 303px 1120px;
+  color: rgb(255, 111, 0);
+  border:none;
+  transition: transform 200ms, box-shadow 200ms;
+}
+
+button:active{
+
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #fcfeff 0 0 0 ;
+}
